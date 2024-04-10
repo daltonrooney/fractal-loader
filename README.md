@@ -1,6 +1,6 @@
-# Fractal loader plugin for Craft CMS 4.x
+# Fractal loader plugin for Craft CMS 5.x
 
-Allows you to include [Fractal](https://fractal.build/) generated partials in your Craft CMS templates. 
+Allows you to include [Fractal](https://fractal.build/) generated partials in your Craft CMS templates.
 
 ## Requirements
 
@@ -35,4 +35,3 @@ Make use of the Fractal library in Craft 4 by exporting a `components-map.json` 
 
 Credit [ournameismud](https://github.com/ournameismud/fractal) for the Craft 3 version.
 Credit [allmarkedup](https://github.com/allmarkedup) for original [Fractal component loader plugin for Craft cms](https://gist.github.com/allmarkedup/72afed8e97c9b2e8c61c36b798ae1870)
-

@@ -1,6 +1,6 @@
 <?php
 /**
- * Fractal loader plugin for Craft CMS 4.x
+ * Fractal loader plugin for Craft CMS 5.x
  *
  * @link      https://madebyraygun.com/
  * @copyright Copyright (c) 2022 Raygun Design, LLC
@@ -61,6 +61,6 @@ class FractalLoader extends Plugin
                 $twig = Craft::$app->getView()->getTwig()->setLoader(new FractalTemplateLoader(new View));
             }
         });
-        
+
     }
 }

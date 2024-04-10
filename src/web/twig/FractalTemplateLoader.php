@@ -1,6 +1,6 @@
 <?php
 /**
- * Fractal loader plugin for Craft CMS 4.x
+ * Fractal loader plugin for Craft CMS 5.x
  *
  * @link      https://madebyraygun.com/
  * @copyright Copyright (c) 2022 Raygun Design, LLC
@@ -100,7 +100,7 @@ class FractalTemplateLoader implements LoaderInterface
      * @throws TemplateLoaderException if the template doesn’t exist
      */
     private function _resolveTemplate(string $name): string
-    {   
+    {
         if (strpos($name, '@') === 0)
         {
             $mappingPath = CRAFT_BASE_PATH . '/components-map.json';
