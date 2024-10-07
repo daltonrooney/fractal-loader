@@ -1,3 +1,5 @@
+Please note: this repository is archived. Please see the [Component Library plugin for Craft CMS](https://github.com/madebyraygun/craft-component-library) for our latest ideas on using component libraries within Craft CMS. 
+
 # Fractal loader plugin for Craft CMS 4.x
 
 Allows you to include [Fractal](https://fractal.build/) generated partials in your Craft CMS templates. 
